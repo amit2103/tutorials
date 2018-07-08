@@ -12,7 +12,7 @@ import org.apache.solr.common.SolrDocumentList;
 import org.junit.Before;
 import org.junit.Test;
 
-public class SolrJavaIntegrationTest {
+public class SolrJavaLiveTest {
 
     private SolrJavaIntegration solrJavaIntegration;
 
