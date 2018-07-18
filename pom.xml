@@ -564,7 +564,7 @@
 				<module>spring-static-resources</module>
 				<module>hazelcast</module>
 				<module>hbase</module>
-				<module>hibernate5</module>
+				<!--<module>hibernate5</module>-->
 				<module>httpclient</module>
 				<module>hystrix</module>
 				<module>image-processing</module>
@@ -572,17 +572,17 @@
 				<module>influxdb</module>
 				<module>jackson</module>
 <!--				<module>persistence-modules/java-cassandra</module>-->
-<!--				<module>vavr</module>-->
-<!--				<module>java-lite</module>-->
-<!--				<module>java-numbers</module>-->
-<!--				<module>java-rmi</module>-->
-<!--				<module>java-vavr-stream</module>-->
-<!--				<module>javax-servlets</module>-->
-<!--				<module>javaxval</module>-->
-<!--				<module>jaxb</module>-->
-<!--				<module>javafx</module>-->
-<!--				<module>jgroups</module>-->
-<!--				<module>jee-7</module>-->
+				<module>vavr</module>
+				<module>java-lite</module>
+				<module>java-numbers</module>
+				<module>java-rmi</module>
+				<module>java-vavr-stream</module>
+				<module>javax-servlets</module>
+				<module>javaxval</module>
+				<module>jaxb</module>
+				<module>javafx</module>
+				<module>jgroups</module>
+				<module>jee-7</module>
 <!--				<module>jhipster/jhipster-monolithic</module>-->
 <!--				<module>jjwt</module>-->
 <!--				<module>jpa-storedprocedure</module>-->
@@ -662,13 +662,13 @@
 				<module>spring-data-elasticsearch</module>
 				<module>spring-data-keyvalue</module>
 				<module>spring-data-mongodb</module>
-<!--				<module>persistence-modules/spring-data-neo4j</module>-->
+				<module>persistence-modules/spring-data-neo4j</module>
 <!--				<module>persistence-modules/spring-data-redis</module>-->
-<!--				<module>spring-data-rest</module>-->
-<!--				<module>persistence-modules/spring-data-solr</module>-->
-<!--				<module>spring-dispatcher-servlet</module>-->
-<!--				<module>spring-exceptions</module>-->
-<!--				<module>spring-freemarker</module>-->
+				<module>spring-data-rest</module>
+				<module>persistence-modules/spring-data-solr</module>
+				<module>spring-dispatcher-servlet</module>
+				<module>spring-exceptions</module>
+				<module>spring-freemarker</module>
 				<module>persistence-modules/spring-hibernate-3</module>
 				<module>spring-hibernate4</module>
 				<module>persistence-modules/spring-hibernate-5</module>
@@ -680,19 +680,19 @@
 				<module>spring-jms</module>
 				<module>spring-jooq</module>
 				<module>persistence-modules/spring-jpa</module>
-<!--				<module>spring-kafka</module>-->
-<!--				<module>spring-katharsis</module>-->
-<!--				<module>spring-ldap</module>-->
-<!--				<module>spring-mockito</module>-->
-<!--				<module>spring-mvc-forms-jsp</module>-->
-<!--				<module>spring-mvc-forms-thymeleaf</module>-->
-<!--				<module>spring-mvc-java</module>-->
-<!--				<module>spring-mvc-velocity</module>-->
-<!--				<module>spring-mvc-webflow</module>-->
-<!--				<module>spring-mvc-xml</module>-->
-<!--				<module>spring-mvc-kotlin</module>-->
-<!--				<module>spring-protobuf</module>-->
-<!--				<module>spring-quartz</module>-->
+				<module>spring-kafka</module>
+				<module>spring-katharsis</module>
+				<module>spring-ldap</module>
+				<module>spring-mockito</module>
+				<module>spring-mvc-forms-jsp</module>
+				<module>spring-mvc-forms-thymeleaf</module>
+				<module>spring-mvc-java</module>
+				<module>spring-mvc-velocity</module>
+				<module>spring-mvc-webflow</module>
+				<module>spring-mvc-xml</module>
+				<module>spring-mvc-kotlin</module>
+				<module>spring-protobuf</module>
+				<module>spring-quartz</module>
 				<module>spring-rest-angular</module>
 				<module>spring-rest-full</module>
 				<module>spring-rest-query-language</module>
