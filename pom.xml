@@ -517,36 +517,36 @@
 				<module>atomix</module>
 				<module>apache-cayenne</module>
 				<module>aws</module>
-<!--				<module>aws-lambda</module>-->
-<!--				<module>akka-streams</module>-->
-<!--				<module>algorithms</module>-->
-<!--				<module>annotations</module>-->
-<!--				<module>apache-cxf</module>-->
-<!--				<module>apache-fop</module>-->
-<!--				<module>apache-poi</module>-->
-<!--				<module>apache-tika</module>-->
-<!--				<module>apache-thrift</module>-->
-<!--				<module>apache-curator</module>-->
-<!--				<module>apache-zookeeper</module>-->
-<!--				<module>apache-opennlp</module>-->
-<!--				<module>autovalue</module>-->
-<!--				<module>axon</module>-->
-<!--				<module>azure</module>-->
-<!--				<module>bootique</module>-->
-<!--				<module>cdi</module>-->
+				<module>aws-lambda</module>
+				<module>akka-streams</module>
+				<module>algorithms</module>
+				<module>annotations</module>
+				<module>apache-cxf</module>
+				<module>apache-fop</module>
+				<module>apache-poi</module>
+				<module>apache-tika</module>
+				<module>apache-thrift</module>
+				<module>apache-curator</module>
+				<module>apache-zookeeper</module>
+				<module>apache-opennlp</module>
+				<module>autovalue</module>
+				<module>axon</module>
+				<!--<module>azure</module>-->
+				<module>bootique</module>
+				<module>cdi</module>
 <!--				<module>core-java-9</module>--> <!-- Commented because we have still not upgraded to java 9 -->
-<!--				<module>core-java</module>-->
-<!--				<module>core-java-collections</module>-->
-<!--				<module>core-java-io</module>-->
-<!--				<module>core-java-8</module>-->
-<!--				<module>core-kotlin</module>-->
-<!--				<module>core-groovy</module>-->
-<!--				<module>core-java-concurrency</module>-->
-<!--				<module>couchbase</module>-->
-<!--				<module>deltaspike</module>-->
-<!--				<module>dozer</module>-->
-<!--				<module>ethereum</module>-->
-<!--				<module>ejb</module>-->
+				<module>core-java</module>
+				<module>core-java-collections</module>
+				<module>core-java-io</module>
+				<module>core-java-8</module>
+				<module>core-kotlin</module>
+				<module>core-groovy</module>
+				<module>core-java-concurrency</module>
+				<module>couchbase</module>
+				<module>deltaspike</module>
+				<module>dozer</module>
+				<module>ethereum</module>
+				<!--<module>ejb</module>-->
 <!--				<module>feign</module>-->
 <!--				<module>flips</module>-->
 <!--				<module>testing-modules/gatling</module>-->
@@ -611,10 +611,10 @@
 <!--				<module>mustache</module>-->
 <!--				<module>mvn-wrapper</module>-->
 <!--				<module>noexception</module>-->
-<!--				<module>orientdb</module>-->
-<!--				<module>osgi</module>-->
-<!--				<module>orika</module>-->
-<!--				<module>patterns</module>-->
+				<module>orientdb</module>
+				<module>osgi</module>
+				<module>orika</module>
+				<module>patterns</module>
 <!--				<module>pdf</module>-->
 <!--				<module>protobuffer</module>-->
 <!--				<module>persistence-modules/querydsl</module>-->
@@ -652,16 +652,16 @@
 <!--				<module>spring-boot-logging-log4j2</module>-->
 <!--				<module>spring-cloud-data-flow</module>-->
 <!--				<module>spring-cloud</module>-->
-<!--				<module>spring-core</module>-->
-<!--				<module>spring-cucumber</module>-->
+				<module>spring-core</module>
+				<module>spring-cucumber</module>
 <!--				<module>spring-ejb</module>-->
 <!--				<module>spring-aop</module>-->
 <!--				<module>persistence-modules/spring-data-cassandra</module>-->
 <!--				<module>spring-data-couchbase-2</module>-->
-<!--				<module>persistence-modules/spring-data-dynamodb</module>-->
-<!--				<module>spring-data-elasticsearch</module>-->
-<!--				<module>spring-data-keyvalue</module>-->
-<!--				<module>spring-data-mongodb</module>-->
+				<module>persistence-modules/spring-data-dynamodb</module>
+				<module>spring-data-elasticsearch</module>
+				<module>spring-data-keyvalue</module>
+				<module>spring-data-mongodb</module>
 <!--				<module>persistence-modules/spring-data-neo4j</module>-->
 <!--				<module>persistence-modules/spring-data-redis</module>-->
 <!--				<module>spring-data-rest</module>-->
@@ -669,17 +669,17 @@
 <!--				<module>spring-dispatcher-servlet</module>-->
 <!--				<module>spring-exceptions</module>-->
 <!--				<module>spring-freemarker</module>-->
-<!--				<module>persistence-modules/spring-hibernate-3</module>-->
-<!--				<module>spring-hibernate4</module>-->
-<!--				<module>persistence-modules/spring-hibernate-5</module>-->
+				<module>persistence-modules/spring-hibernate-3</module>
+				<module>spring-hibernate4</module>
+				<module>persistence-modules/spring-hibernate-5</module>
 <!--				<module>persistence-modules/spring-data-eclipselink</module>-->
 <!--				<module>spring-integration</module>-->
 <!--				<module>spring-jenkins-pipeline</module>-->
 <!--				<module>spring-jersey</module>-->
 <!--				<module>jmeter</module>-->
 <!--				<module>spring-jms</module>-->
-<!--				<module>spring-jooq</module>-->
-<!--				<module>persistence-modules/spring-jpa</module>-->
+				<module>spring-jooq</module>
+				<module>persistence-modules/spring-jpa</module>
 <!--				<module>spring-kafka</module>-->
 <!--				<module>spring-katharsis</module>-->
 <!--				<module>spring-ldap</module>-->
@@ -693,11 +693,11 @@
 <!--				<module>spring-mvc-kotlin</module>-->
 <!--				<module>spring-protobuf</module>-->
 <!--				<module>spring-quartz</module>-->
-<!--				<module>spring-rest-angular</module>-->
-<!--				<module>spring-rest-full</module>-->
-<!--				<module>spring-rest-query-language</module>-->
-<!--				<module>spring-rest</module>-->
-<!--				<module>spring-rest-simple</module>-->
+				<module>spring-rest-angular</module>
+				<module>spring-rest-full</module>
+				<module>spring-rest-query-language</module>
+				<module>spring-rest</module>
+				<module>spring-rest-simple</module>
 <!--				<module>spring-security-acl</module>-->
 <!--				<module>spring-security-cache-control</module>-->
 <!--				<module>spring-security-client/spring-security-jsp-authentication</module>-->
@@ -723,7 +723,7 @@
 <!--				<module>spring-security-rest</module>-->
 <!--				<module>spring-security-sso</module>-->
 <!--				<module>spring-security-x509</module>-->
-<!--				<module>spring-session</module>-->
+				<module>spring-session</module>
 <!--				<module>spring-sleuth</module>-->
 <!--				<module>spring-social-login</module>-->
 <!--				<module>spring-spel</module>-->
@@ -759,7 +759,7 @@
 <!--				<module>deeplearning4j</module>-->
 <!--				<module>lucene</module>-->
 <!--				<module>vraptor</module>-->
-<!--				<module>persistence-modules/java-cockroachdb</module>-->
+				<module>persistence-modules/java-cockroachdb</module>
 <!--				<module>spring-security-thymeleaf</module>-->
 <!--				<module>persistence-modules/java-jdbi</module>-->
 <!--				<module>jersey</module>-->
@@ -801,7 +801,7 @@
         <org.slf4j.version>1.7.21</org.slf4j.version>
         <logback.version>1.1.7</logback.version>
         <!-- plugins -->
-        <maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
         <java.version>1.8</java.version>

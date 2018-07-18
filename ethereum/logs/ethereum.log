@@ -1,0 +1,37 @@
+12:12:49.862 DEBUG [o.j.logging]  Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+12:12:50.152 DEBUG [o.w.p.h.HttpService]  --> POST http://localhost:8545/ http/1.1
+12:12:50.155 DEBUG [o.w.p.h.HttpService]  Content-Type: application/json; charset=utf-8
+12:12:50.155 DEBUG [o.w.p.h.HttpService]  Content-Length: 174
+12:12:50.156 DEBUG [o.w.p.h.HttpService]  
+12:12:50.156 DEBUG [o.w.p.h.HttpService]  {"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{"from":"FROM_ADDRESS","to":"TO_ADDRESS","gas":"0x64","gasPrice":"0x64","data":"0xd9414199","nonce":"0x64"}],"id":0}
+12:12:50.156 DEBUG [o.w.p.h.HttpService]  --> END POST (174-byte body)
+12:12:52.239 DEBUG [o.w.p.h.HttpService]  <-- HTTP FAILED: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8545
+12:12:56.573 DEBUG [o.j.logging]  Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+12:12:56.960 DEBUG [o.w.p.h.HttpService]  --> POST http://localhost:8545/ http/1.1
+12:12:56.960 DEBUG [o.w.p.h.HttpService]  Content-Type: application/json; charset=utf-8
+12:12:56.960 DEBUG [o.w.p.h.HttpService]  Content-Length: 60
+12:12:56.961 DEBUG [o.w.p.h.HttpService]  
+12:12:56.961 DEBUG [o.w.p.h.HttpService]  {"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":0}
+12:12:56.961 DEBUG [o.w.p.h.HttpService]  --> END POST (60-byte body)
+12:12:58.988 DEBUG [o.w.p.h.HttpService]  <-- HTTP FAILED: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8545
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  --> POST http://localhost:8545/ http/1.1
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  Content-Type: application/json; charset=utf-8
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  Content-Length: 115
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  {"jsonrpc":"2.0","method":"eth_getBalance","params":["0x281055afc982d96fab65b3a49cac8b878184cb16","latest"],"id":1}
+12:12:59.031 DEBUG [o.w.p.h.HttpService]  --> END POST (115-byte body)
+12:13:01.054 DEBUG [o.w.p.h.HttpService]  <-- HTTP FAILED: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8545
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  --> POST http://localhost:8545/ http/1.1
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  Content-Type: application/json; charset=utf-8
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  Content-Length: 63
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":2}
+12:13:01.071 DEBUG [o.w.p.h.HttpService]  --> END POST (63-byte body)
+12:13:03.096 DEBUG [o.w.p.h.HttpService]  <-- HTTP FAILED: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8545
+12:13:03.104 DEBUG [o.w.p.h.HttpService]  --> POST http://localhost:8545/ http/1.1
+12:13:03.104 DEBUG [o.w.p.h.HttpService]  Content-Type: application/json; charset=utf-8
+12:13:03.104 DEBUG [o.w.p.h.HttpService]  Content-Length: 124
+12:13:03.104 DEBUG [o.w.p.h.HttpService]  
+12:13:03.104 DEBUG [o.w.p.h.HttpService]  {"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0x281055afc982d96fab65b3a49cac8b878184cb16","latest"],"id":3}
+12:13:03.105 DEBUG [o.w.p.h.HttpService]  --> END POST (124-byte body)
+12:13:05.126 DEBUG [o.w.p.h.HttpService]  <-- HTTP FAILED: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8545
