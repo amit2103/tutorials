@@ -548,11 +548,11 @@
 				<module>ethereum</module>
 				<!--<module>ejb</module>-->
 <!--				<module>feign</module>-->
-<!--				<module>flips</module>-->
-<!--				<module>testing-modules/gatling</module>-->
-<!--				<module>geotools</module>-->
-<!--				<module>testing-modules/groovy-spock</module>-->
-<!--				<module>google-cloud</module>-->
+				<module>flips</module>
+				<module>testing-modules/gatling</module>
+				<module>geotools</module>
+				<module>testing-modules/groovy-spock</module>
+				<module>google-cloud</module>
 				<module>google-web-toolkit</module>
 				<module>gson</module>
 				<module>guava</module>
@@ -584,12 +584,12 @@
 				<module>jgroups</module>
 				<module>jee-7</module>
 <!--				<module>jhipster/jhipster-monolithic</module>-->
-<!--				<module>jjwt</module>-->
-<!--				<module>jpa-storedprocedure</module>-->
-<!--				<module>jsf</module>-->
-<!--				<module>json-path</module>-->
-<!--				<module>json</module>-->
-<!--				<module>jsoup</module>-->
+				<module>jjwt</module>
+				<module>jpa-storedprocedure</module>
+				<module>jsf</module>
+				<module>json-path</module>
+				<module>json</module>
+				<module>jsoup</module>
 <!--				<module>testing-modules/junit-5</module>-->
 <!--				<module>jws</module>-->
 <!--				<module>libraries</module>-->
@@ -615,15 +615,15 @@
 				<module>osgi</module>
 				<module>orika</module>
 				<module>patterns</module>
-<!--				<module>pdf</module>-->
-<!--				<module>protobuffer</module>-->
+				<module>pdf</module>
+				<module>protobuffer</module>
 <!--				<module>persistence-modules/querydsl</module>-->
 <!--				<module>reactor-core</module>-->
 <!--				<module>persistence-modules/redis</module>-->
 <!--				<module>testing-modules/rest-assured</module>-->
 <!--				<module>testing-modules/rest-testing</module>-->
-<!--				<module>resteasy</module>-->
-<!--				<module>rxjava</module>-->
+				<module>resteasy</module>
+				<module>rxjava</module>
 <!--				<module>spring-swagger-codegen</module>-->
 <!--				<module>testing-modules/selenium-junit-testng</module>-->
 <!--				<module>persistence-modules/solr</module>-->
@@ -737,20 +737,20 @@
 				<module>spring-rest-embedded-tomcat</module>
 <!--				<module>testing-modules/testing</module>-->
 <!--				<module>testing-modules/testng</module>-->
-<!--				<module>video-tutorials</module>-->
+				<module>video-tutorials</module>
 <!--				<module>xml</module>-->
 <!--				<module>xmlunit-2</module>-->
-<!--				<module>struts-2</module>-->
-<!--				<module>apache-velocity</module>-->
-<!--				<module>apache-solrj</module>-->
-<!--				<module>rabbitmq</module>-->
-<!--				<module>vertx</module>-->
-<!--				<module>persistence-modules/spring-data-gemfire</module>-->
-<!--				<module>mybatis</module>-->
-<!--				<module>spring-drools</module>-->
-<!--				<module>drools</module>-->
-<!--				<module>persistence-modules/liquibase</module>-->
-<!--				<module>spring-boot-property-exp</module>-->
+				<module>struts-2</module>
+				<module>apache-velocity</module>
+				<module>apache-solrj</module>
+				<module>rabbitmq</module>
+				<module>vertx</module>
+				<module>persistence-modules/spring-data-gemfire</module>
+				<module>mybatis</module>
+				<module>spring-drools</module>
+				<module>drools</module>
+				<module>persistence-modules/liquibase</module>
+				<module>spring-boot-property-exp</module>
 <!--				<module>testing-modules/mockserver</module>-->
 <!--				<module>testing-modules/test-containers</module>-->
 				<module>undertow</module>
