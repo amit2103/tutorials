@@ -599,18 +599,18 @@
 <!--				<module>logging-modules/log4j</module>-->
 <!--				<module>logging-modules/log4j2</module>-->
 <!--				<module>logging-modules/logback</module>-->
-<!--				<module>lombok</module>-->
-<!--				<module>mapstruct</module>-->
-<!--				<module>metrics</module>-->
-<!--				<module>maven</module>-->
-<!--				<module>mesos-marathon</module>-->
-<!--				<module>msf4j</module>-->
-<!--				<module>testing-modules/mockito</module>-->
-<!--				<module>testing-modules/mockito-2</module>-->
-<!--				<module>testing-modules/mocks</module>-->
-<!--				<module>mustache</module>-->
-<!--				<module>mvn-wrapper</module>-->
-<!--				<module>noexception</module>-->
+				<module>lombok</module>
+				<module>mapstruct</module>
+				<module>metrics</module>
+				<module>maven</module>
+				<module>mesos-marathon</module>
+				<module>msf4j</module>
+				<module>testing-modules/mockito</module>
+				<module>testing-modules/mockito-2</module>
+				<module>testing-modules/mocks</module>
+				<module>mustache</module>
+				<module>mvn-wrapper</module>
+				<module>noexception</module>
 				<module>orientdb</module>
 				<module>osgi</module>
 				<module>orika</module>
@@ -698,31 +698,31 @@
 				<module>spring-rest-query-language</module>
 				<module>spring-rest</module>
 				<module>spring-rest-simple</module>
-<!--				<module>spring-security-acl</module>-->
-<!--				<module>spring-security-cache-control</module>-->
-<!--				<module>spring-security-client/spring-security-jsp-authentication</module>-->
-<!--				<module>spring-security-client/spring-security-jsp-authorize</module>-->
-<!--				<module>spring-security-client/spring-security-jsp-config</module>-->
-<!--				<module>spring-security-client/spring-security-mvc</module>-->
-<!--				<module>spring-security-client/spring-security-thymeleaf-authentication</module>-->
-<!--				<module>spring-security-client/spring-security-thymeleaf-authorize</module>-->
-<!--				<module>spring-security-client/spring-security-thymeleaf-config</module>-->
-<!--				<module>spring-security-core</module>-->
-<!--				<module>spring-security-mvc-boot</module>-->
-<!--				<module>spring-security-mvc-custom</module>-->
-<!--				<module>spring-security-mvc-digest-auth</module>-->
-<!--				<module>spring-security-mvc-ldap</module>-->
-<!--				<module>spring-security-mvc-login</module>-->
-<!--				<module>spring-security-mvc-persisted-remember-me</module>-->
-<!--				<module>spring-security-mvc-session</module>-->
-<!--				<module>spring-security-mvc-socket</module>-->
-<!--				<module>spring-security-openid</module>-->
+				<module>spring-security-acl</module>
+				<module>spring-security-cache-control</module>
+				<module>spring-security-client/spring-security-jsp-authentication</module>
+				<module>spring-security-client/spring-security-jsp-authorize</module>
+				<module>spring-security-client/spring-security-jsp-config</module>
+				<module>spring-security-client/spring-security-mvc</module>
+				<module>spring-security-client/spring-security-thymeleaf-authentication</module>
+				<module>spring-security-client/spring-security-thymeleaf-authorize</module>
+				<module>spring-security-client/spring-security-thymeleaf-config</module>
+				<module>spring-security-core</module>
+				<module>spring-security-mvc-boot</module>
+				<module>spring-security-mvc-custom</module>
+				<module>spring-security-mvc-digest-auth</module>
+				<module>spring-security-mvc-ldap</module>
+				<module>spring-security-mvc-login</module>
+				<module>spring-security-mvc-persisted-remember-me</module>
+				<module>spring-security-mvc-session</module>
+				<module>spring-security-mvc-socket</module>
+				<module>spring-security-openid</module>
 					<!--<module>spring-security-react</module>-->
-<!--				<module>spring-security-rest-basic-auth</module>-->
-<!--				<module>spring-security-rest-custom</module>-->
-<!--				<module>spring-security-rest</module>-->
-<!--				<module>spring-security-sso</module>-->
-<!--				<module>spring-security-x509</module>-->
+				<module>spring-security-rest-basic-auth</module>
+				<module>spring-security-rest-custom</module>
+				<module>spring-security-rest</module>
+				<module>spring-security-sso</module>
+				<module>spring-security-x509</module>
 				<module>spring-session</module>
 				<module>spring-sleuth</module>
 				<module>spring-social-login</module>
