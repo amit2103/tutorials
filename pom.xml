@@ -549,7 +549,7 @@
 				<!--<module>ejb</module>-->
 <!--				<module>feign</module>-->
 				<module>flips</module>
-				<module>testing-modules/gatling</module>
+<!--				<module>testing-modules/gatling</module>-->
 				<module>geotools</module>
 				<module>testing-modules/groovy-spock</module>
 				<module>google-cloud</module>
@@ -628,7 +628,7 @@
 <!--				<module>testing-modules/selenium-junit-testng</module>-->
 <!--				<module>persistence-modules/solr</module>-->
 <!--				<module>spark-java</module>-->
-				<module>spring-4</module>
+<!--				<module>spring-4</module>-->
 <!--				<module>spring-5</module>-->
 <!--				<module>spring-5-reactive</module>-->
 <!--				<module>spring-5-mvc</module>-->
@@ -638,16 +638,16 @@
 				<module>spring-amqp</module>
 				<module>spring-all</module>
 <!--				<module>spring-amqp-simple</module>-->
-				<module>spring-apache-camel</module>
-				<module>spring-batch</module>
-				<module>spring-bom</module>
-				<module>spring-boot</module>
-				<module>spring-boot-keycloak</module>
-				<module>spring-boot-bootstrap</module>
-				<module>spring-boot-admin</module>
+<!--				<module>spring-apache-camel</module>-->
+<!--				<module>spring-batch</module>-->
+<!--				<module>spring-bom</module>-->
+<!--				<module>spring-boot</module>-->
+<!--				<module>spring-boot-keycloak</module>-->
+<!--				<module>spring-boot-bootstrap</module>-->
+<!--				<module>spring-boot-admin</module>-->
 <!--				<module>spring-boot-ops</module>-->
-				<module>spring-boot-persistence</module>
-				<module>spring-boot-security</module>
+<!--				<module>spring-boot-persistence</module>-->
+<!--				<module>spring-boot-security</module>-->
 <!--				<module>spring-boot-mvc</module>-->
 <!--				<module>spring-boot-logging-log4j2</module>-->
 				<module>spring-cloud-data-flow</module>
