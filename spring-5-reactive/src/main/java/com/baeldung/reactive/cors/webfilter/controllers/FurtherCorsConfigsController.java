@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import reactor.core.publisher.Mono;
 
-@RestController
+@RestController("FurtherCorsConfigsController-web-filter-and-more-on-annotated")
 @RequestMapping("/web-filter-and-more-on-annotated")
 public class FurtherCorsConfigsController {
 

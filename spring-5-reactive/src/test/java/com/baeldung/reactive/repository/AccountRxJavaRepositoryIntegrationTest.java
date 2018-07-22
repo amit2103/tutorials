@@ -22,8 +22,8 @@ public class AccountRxJavaRepositoryIntegrationTest {
 
     @Test
     public void givenValue_whenFindAllByValue_thenFindAccounts() throws InterruptedException {
-        repository.save(new Account(null, "bruno", 12.3)).blockingGet();
-        Observable<Account> accountObservable = repository.findAllByValue(12.3);
+        repository.save(new Account(null, "bruno", 121.3)).blockingGet();
+        Observable<Account> accountObservable = repository.findAllByValue(121.3);
 
         accountObservable
                 .test()
@@ -31,7 +31,7 @@ public class AccountRxJavaRepositoryIntegrationTest {
                 .assertComplete()
                 .assertValueAt(0, account -> {
                     assertEquals("bruno", account.getOwner());
-                    assertEquals(Double.valueOf(12.3), account.getValue());
+                    assertEquals(Double.valueOf(121.3), account.getValue());
                     return true;
                 });
 
@@ -39,7 +39,7 @@ public class AccountRxJavaRepositoryIntegrationTest {
 
     @Test
     public void givenOwner_whenFindFirstByOwner_thenFindAccount() throws InterruptedException {
-        repository.save(new Account(null, "bruno", 12.3)).blockingGet();
+        repository.save(new Account(null, "bruno", 121.3)).blockingGet();
         Single<Account> accountSingle = repository.findFirstByOwner(Single.just("bruno"));
 
         accountSingle
@@ -48,7 +48,7 @@ public class AccountRxJavaRepositoryIntegrationTest {
                 .assertComplete()
                 .assertValueAt(0, account -> {
                     assertEquals("bruno", account.getOwner());
-                    assertEquals(Double.valueOf(12.3), account.getValue());
+                    assertEquals(Double.valueOf(121.3), account.getValue());
                     assertNotNull(account.getId());
                     return true;
                 });

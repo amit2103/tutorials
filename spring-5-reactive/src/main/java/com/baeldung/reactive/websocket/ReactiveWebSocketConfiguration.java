@@ -1,6 +1,7 @@
 package com.baeldung.reactive.websocket;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.HandlerMapping;
@@ -14,6 +15,7 @@ import java.util.Map;
 public class ReactiveWebSocketConfiguration {
 
     @Autowired
+    @Qualifier("ReactiveWebSocketHandler")
     private WebSocketHandler webSocketHandler;
 
     @Bean
